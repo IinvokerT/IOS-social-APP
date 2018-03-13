@@ -1,0 +1,7 @@
+target 'Unime' do
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'SMSSDK'
+    pod 'Kingfisher'
+end
+use_frameworks!

@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Kingfisher (3.5.2)
+  - MOBFoundation_IDFA (2.2.15)
+  - SMSSDK (2.1.5):
+    - MOBFoundation_IDFA
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - SMSSDK
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Kingfisher: 9950e382c500b6834ce004c7c4131c444e90c3a1
+  MOBFoundation_IDFA: c5741d4cf9a08daa24203fe9e1f90ff1ab7403e5
+  SMSSDK: 7d19654f9d36392988e96bf697afdac983808b1a
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 493c61aa7ab7b301a2c64b77dd10a490287a970f
+
+COCOAPODS: 1.4.0
