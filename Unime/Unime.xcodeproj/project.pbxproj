@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255B3AF32057BB5E005D3D0D /* SignInAndSignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255B3AF22057BB5E005D3D0D /* SignInAndSignUp.storyboard */; };
 		25C76FC92057A80700CE1054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C76FC82057A80700CE1054 /* AppDelegate.swift */; };
 		25C76FCB2057A80700CE1054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C76FCA2057A80700CE1054 /* ViewController.swift */; };
 		25C76FCE2057A80700CE1054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C76FCC2057A80700CE1054 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		255B3AF22057BB5E005D3D0D /* SignInAndSignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInAndSignUp.storyboard; sourceTree = "<group>"; };
 		25C76FC52057A80700CE1054 /* Unime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C76FC82057A80700CE1054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25C76FCA2057A80700CE1054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		255B3AF12057BADF005D3D0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C76FC82057A80700CE1054 /* AppDelegate.swift */,
+				25C76FD42057A80700CE1054 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		25C76FBC2057A80700CE1054 = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +74,12 @@
 		25C76FC72057A80700CE1054 /* Unime */ = {
 			isa = PBXGroup;
 			children = (
-				25C76FC82057A80700CE1054 /* AppDelegate.swift */,
+				25C76FD72057A80700CE1054 /* Info.plist */,
+				255B3AF12057BADF005D3D0D /* Supporting Files */,
 				25C76FCA2057A80700CE1054 /* ViewController.swift */,
+				255B3AF22057BB5E005D3D0D /* SignInAndSignUp.storyboard */,
 				25C76FCC2057A80700CE1054 /* Main.storyboard */,
 				25C76FD22057A80700CE1054 /* Assets.xcassets */,
-				25C76FD42057A80700CE1054 /* LaunchScreen.storyboard */,
-				25C76FD72057A80700CE1054 /* Info.plist */,
 				25C76FCF2057A80700CE1054 /* Unime.xcdatamodeld */,
 			);
 			path = Unime;
@@ -155,6 +166,7 @@
 			files = (
 				25C76FD62057A80700CE1054 /* LaunchScreen.storyboard in Resources */,
 				25C76FD32057A80700CE1054 /* Assets.xcassets in Resources */,
+				255B3AF32057BB5E005D3D0D /* SignInAndSignUp.storyboard in Resources */,
 				25C76FCE2057A80700CE1054 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
