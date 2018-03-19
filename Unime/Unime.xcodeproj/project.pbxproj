@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		255B3AF32057BB5E005D3D0D /* SignInAndSignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255B3AF22057BB5E005D3D0D /* SignInAndSignUp.storyboard */; };
+		255B3AF52058C1F7005D3D0D /* InvitationCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B3AF42058C1F7005D3D0D /* InvitationCodeTextField.swift */; };
+		255B3AF72058C3F5005D3D0D /* InvitationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B3AF62058C3F5005D3D0D /* InvitationCodeView.swift */; };
+		255B3AF92059501A005D3D0D /* InvtationCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B3AF82059501A005D3D0D /* InvtationCodeVC.swift */; };
+		255B3AFB205A30DB005D3D0D /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B3AFA205A30DA005D3D0D /* SignInVC.swift */; };
+		255B3AFD205A30EF005D3D0D /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B3AFC205A30EF005D3D0D /* SignUpVC.swift */; };
 		25C76FC92057A80700CE1054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C76FC82057A80700CE1054 /* AppDelegate.swift */; };
 		25C76FCB2057A80700CE1054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C76FCA2057A80700CE1054 /* ViewController.swift */; };
 		25C76FCE2057A80700CE1054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C76FCC2057A80700CE1054 /* Main.storyboard */; };
@@ -19,6 +24,11 @@
 
 /* Begin PBXFileReference section */
 		255B3AF22057BB5E005D3D0D /* SignInAndSignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInAndSignUp.storyboard; sourceTree = "<group>"; };
+		255B3AF42058C1F7005D3D0D /* InvitationCodeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationCodeTextField.swift; sourceTree = "<group>"; };
+		255B3AF62058C3F5005D3D0D /* InvitationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationCodeView.swift; sourceTree = "<group>"; };
+		255B3AF82059501A005D3D0D /* InvtationCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvtationCodeVC.swift; sourceTree = "<group>"; };
+		255B3AFA205A30DA005D3D0D /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		255B3AFC205A30EF005D3D0D /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		25C76FC52057A80700CE1054 /* Unime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C76FC82057A80700CE1054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25C76FCA2057A80700CE1054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +87,12 @@
 				25C76FD72057A80700CE1054 /* Info.plist */,
 				255B3AF12057BADF005D3D0D /* Supporting Files */,
 				25C76FCA2057A80700CE1054 /* ViewController.swift */,
+				255B3AFA205A30DA005D3D0D /* SignInVC.swift */,
+				255B3AFC205A30EF005D3D0D /* SignUpVC.swift */,
 				255B3AF22057BB5E005D3D0D /* SignInAndSignUp.storyboard */,
+				255B3AF42058C1F7005D3D0D /* InvitationCodeTextField.swift */,
+				255B3AF62058C3F5005D3D0D /* InvitationCodeView.swift */,
+				255B3AF82059501A005D3D0D /* InvtationCodeVC.swift */,
 				25C76FCC2057A80700CE1054 /* Main.storyboard */,
 				25C76FD22057A80700CE1054 /* Assets.xcassets */,
 				25C76FCF2057A80700CE1054 /* Unime.xcdatamodeld */,
@@ -239,9 +254,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255B3AFD205A30EF005D3D0D /* SignUpVC.swift in Sources */,
 				25C76FCB2057A80700CE1054 /* ViewController.swift in Sources */,
+				255B3AF52058C1F7005D3D0D /* InvitationCodeTextField.swift in Sources */,
 				25C76FC92057A80700CE1054 /* AppDelegate.swift in Sources */,
 				25C76FD12057A80700CE1054 /* Unime.xcdatamodeld in Sources */,
+				255B3AFB205A30DB005D3D0D /* SignInVC.swift in Sources */,
+				255B3AF92059501A005D3D0D /* InvtationCodeVC.swift in Sources */,
+				255B3AF72058C3F5005D3D0D /* InvitationCodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
